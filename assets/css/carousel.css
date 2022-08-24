@@ -1,0 +1,52 @@
+.container {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.315);
+    height: 530px;
+    width: 500px;
+    overflow: hidden;
+    margin-top: 50px;
+    margin-left: 410px;
+}
+@media (max-width: 800px) {
+    .container {
+        margin-left: 150px;
+    }
+}
+@media (max-width: 412px) {
+    .container {
+        width: 350px;
+        margin-left: 31px;
+    }
+}
+@media (min-width: 1920px) {
+    .container {
+        margin-left: 710px;
+    }
+}
+.img-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0px);
+}
+.buttons-container {
+    display: flex;
+    justify-content: space-between;
+}
+button {
+    border: none;
+    background-color: rebeccapurple;
+    color: #fff;
+    cursor: pointer;
+    padding: 0.5rem;
+    width: 49%;
+}
+button:focus{
+    outline: none;
+}
+button:hover {
+    opacity: 0.9;
+}
+img {
+    object-fit: cover;
+    height: 500px;
+    width: 500px;
+}

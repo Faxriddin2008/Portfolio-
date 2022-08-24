@@ -1,0 +1,597 @@
+<<<<<<< Updated upstream
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fede.me</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="carousel.css">
+    <link rel="icon" href="photo_2021-06-24_23-20-50.jpg">
+    <link rel="stylesheet" href="vanilla.js">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+</head>
+
+<body>
+    <header class="navbar">
+        <nav id="navbar" style="position: fixed;">
+            <ul class="ul-1">
+                <h1 class="text-3">FAXRIDDIN</h1>
+                <li class="li-2"><a href="#home" style="text-decoration: none; color: black;">Home</a></li>
+                <li class="li-3"><a href="#about" style="text-decoration: none; color: black;">About</a></li>
+                <li class="li-3"><a href="#projects" style="text-decoration: none; color: black;">Projects</a></li>
+                <li class="li-3"><a href="#contact" style="text-decoration: none; color: black;">Contact</a></li>
+                <li class="li-3"><a href="#footer" style="text-decoration: none; color: black;">Footer</a></li>
+                <button class="btn-2"><a href="https://www.instagram.com/">Subscribe</a></button>
+                <i class='bx bx-menu' id="btn"></i>
+            </ul>
+        </nav>
+        <div class="container-1">
+            <img style="width: 100%; height: 700px; object-fit: cover; margin-top: -50px;"
+                src="pexels-andrea-piacquadio-845451.jpg" alt="" class="img-1">
+            <div class="yoz">
+                <div class="yozish">
+                    <h1>I'm Abduvasiyev Faxriddin</h1>
+                </div>
+            </div>
+            <div class="yoz-1">
+                <span class="element"></span>
+            </div>
+            <!-- <button class="btn-1">Visit us</button> -->
+        </div>
+    </header>
+    <section id="about" class="section-1">
+        <div class="container-2">
+            <h1 class="text-4">About me</h1>
+            <h1 class="text-5">_____</h1>
+        </div>
+        <div class="container-3">
+            <div class="container-5">
+                <span>
+                    <p class="text-6">Live: Jizzakh</p>
+                    <img src="XXXL.webp" alt="" class="img-3">
+                </span>
+
+            </div>
+            <div class="container-5">
+                <span>
+                    <p class="text-6">Study: 17-school</p>
+                    <img src="9BVkt015657591000804_b.jpg" alt="" class="img-3">
+                </span>
+            </div>
+            <div class="container-5">
+                <span>
+                    <p class="text-6">Student of IT Park</p>
+                    <img src="Без названия.png" alt="" class="img-4">
+                </span>
+            </div>
+        </div>
+    </section>
+    <section id="projects" class="section-2">
+        <h1 class="text-7">Projects</h1>
+        <h1 class="text-5">_____</h1>
+        <div class="card">
+            <div class="top-menu">
+                <h3>Wednesday, August 2022</h3>
+                <div class="battery">
+                    <span>42%</span>
+                    <!-- <img class="low" src="low.png" alt=""> -->
+                </div>
+            </div>
+            <div class="clock">
+                <div class="wrap">
+                    <span class="hour"></span>
+                    <span class="minute"></span>
+                    <span class="second"></span>
+                    <span class="dot"></span>
+                </div>
+                <div class="timing">
+                    <span class="span-1">
+                        <span class="hours"></span>:<span class="mins"></span>
+                    </span>
+                    <p>Wednesday, August 2022</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="img-container" id="imgs">
+                <img src="switzerland.jpg" alt="">
+                <img src="photo_2021-12-24_22-07-11.jpg" alt="">
+                <img src="images.jpg" alt="">
+                <img src="-5808811021958229169_121.jpg" alt="">
+            </div>
+            <div class="buttons-container">
+                <button id="left">Prev</button>
+                <button id="right">Next</button>
+            </div>
+        </div>
+        <h1 class="h1">Simple calculator</h1>
+        <form class="calculator" name="calculator">
+            <table>
+                <tr>
+                    <td colspan="4">
+                        <input type="text" name="display" id="display" placeholder="0" disabled>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="button" name="seven" value="7" onclick="calculator.display.value += '7'"></td>
+                    <td><input type="button" name="eight" value="8" onclick="calculator.display.value += '8'"></td>
+                    <td><input type="button" name="nine" value="9" onclick="calculator.display.value += '9'"></td>
+                    <td><input type="button" name="times" class="operator" value="x"
+                            onclick="calculator.display.value += '*'"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" name="four" value="4" onclick="calculator.display.value += '4'"></td>
+                    <td><input type="button" name="five" value="5" onclick="calculator.display.value += '5'"></td>
+                    <td><input type="button" name="six" value="6" onclick="calculator.display.value += '6'"></td>
+                    <td><input type="button" name="minus" class="operator" value="-"
+                            onclick="calculator.display.value += '-'"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" name="one" value="1" onclick="calculator.display.value += '1'"></td>
+                    <td><input type="button" name="two" value="2" onclick="calculator.display.value += '2'"></td>
+                    <td><input type="button" name="three" value="3" onclick="calculator.display.value += '3'"></td>
+                    <td><input type="button" name="plus" class="operator" value="+"
+                            onclick="calculator.display.value += '+'"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" name="clear" value="c" onclick="calculator.display.value = ''"></td>
+                    <td><input type="button" name="zero" value="0" onclick="calculator.display.value += '0'"></td>
+                    <td><input type="button" name="doit" value="="
+                            onclick="calculator.display.value = eval(calculator.display.value)"></td>
+                    <td><input type="button" name="div" class="operator" value="/"
+                            onclick="calculator.display.value += '/'"></td>
+                </tr>
+            </table>
+        </form>
+        <h1 class="h1">Vanilla</h1>
+        <div data-tilt data-tilt-glare data-tilt-max-glare="0.8" data-tilt data-tilt-scale="1.1" class="your-element">
+        </div>
+
+        <script type="text/javascript" src="vanilla.js"></script>
+        <script type="text/javascript">
+            VanillaTilt.init(document.querySelector(".your-element"), {
+                max: 25,
+                speed: 400
+            });
+
+            //It also supports NodeList
+            VanillaTilt.init(document.querySelectorAll(".your-element"));
+        </script>
+        </script>
+    </section>
+    <section id="contact" class="section-3">
+        <div class="section-3">
+            <h1 class="text-7">Contact</h1>
+            <h1 class="text-5">_____</h1>
+            <h1 class="po"><span class="fi">Contact</span> Us</h1>
+            <p class="shkaf">Please fill out the form below to contact us</p>
+            <label class="tel" for="">Name</label> <br>
+            <input type="text" name="" id="stol"><br>
+            <label class="tel" for="">Email</label> <br>
+            <input type="email" name="" id="stol"><br>
+            <label class="tel" for="">Message</label> <br>
+            <textarea name="" id="message" cols="10" rows="10"></textarea><br><br>
+            <input class="stul" type="submit" name="" id="" value="Submit">
+        </div>
+    </section>
+    <footer id="footer" class="footer">
+        <div class="container-7">
+            <div class="container-8">
+                <h1 class="text-8">Shop</h1>
+                <h1 class="text-9">_____</h1>
+                <p class="text-10">Shirt</p>
+                <p class="text-10">Shirt</p>
+                <p class="text-10">Shirt</p>
+                <p class="text-10">Shirt</p>
+            </div>
+            <div class="container-8">
+                <h1 class="text-8">Shop</h1>
+                <h1 class="text-9">_____</h1>
+                <p class="text-10">Shirt</p>
+                <p class="text-10">Shirt</p>
+                <p class="text-10">Shirt</p>
+                <p class="text-10">Shirt</p>
+            </div>
+            <div class="container-8">
+                <h1 class="text-8">Shop</h1>
+                <h1 class="text-9">_____</h1>
+                <p class="text-10">Shirt</p>
+                <p class="text-10">Shirt</p>
+                <p class="text-10">Shirt</p>
+                <p class="text-10">Shirt</p>
+            </div>
+            <div class="container-8">
+                <h1 class="text-8">Shop</h1>
+                <h1 class="text-9">_____</h1>
+                <p class="text-10">Shirt</p>
+                <p class="text-10">Shirt</p>
+                <p class="text-10">Shirt</p>
+                <p class="text-10">Shirt</p>
+            </div>
+            <div>
+                <div class="container-9">
+                    <i class='bx bxl-telegram logo' style="position: absolute; border-radius: 5px; color: blue; font-size: 35px; border: 1px solid white; background-color: white; margin-top: -5px; margin-left: 170px;"></i>
+                    <div class="container-10">
+                        <span class="element-2"></span>
+                    </div>
+                </div>
+                <div class="container-9">
+                    <i class='bx bxl-instagram logo' style="position: absolute; border-radius: 5px; color: red; font-size: 35px; border: 1px solid white; background-color: white; margin-top: -5px; margin-left: 170px;"></i>
+                    <div class="container-10-1">
+                        <span class="element-3"></span>
+                    </div>
+                </div>
+                <div class="container-9">
+                    <i class='bx bxl-twitter logo' style="position: absolute; border-radius: 5px; color: blue; font-size: 35px; border: 1px solid white; background-color: white; margin-top: -5px; margin-left: 170px;"></i>
+                    <div class="container-10">
+                        <span class="element-4"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr style="margin-top: 50px;">
+        <div>
+            <p class="text-11">Copyright © 2022 Fax Industries Company. All Rights Reserved. <br> Design: Fede.dev
+            </p>
+        </div>
+    </footer>
+    <script src="portfolio.js"></script>
+    <script src="portfolio-2.js"></script>
+    <script>
+        var typed = new Typed('.element', {
+            strings: ["I'm coder", "I'm student"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            backDelay: 2000,
+            showCursor: true,
+            cursorChar: '<span class="cursor">|</span>',
+            autoInsertCss: true,
+            loop: true,
+            loopCount: Infinity,
+        });
+    </script>
+    <script>
+        var typed = new Typed('.element-2', {
+            strings: ["@Fax2008", "Telegram"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            backDelay: 200,
+            showCursor: true,
+            cursorChar: '<span class="cursor">|</span>',
+            autoInsertCss: true,
+            loop: true,
+            loopCount: Infinity,
+        });
+    </script>
+    <script>
+        var typed = new Typed('.element-3', {
+            strings: ["faxriddin_2008", "Instagram"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            backDelay: 200,
+            showCursor: true,
+            cursorChar: '<span class="cursor">|</span>',
+            autoInsertCss: true,
+            loop: true,
+            loopCount: Infinity,
+        });
+    </script>
+    <script>
+        var typed = new Typed('.element-4', {
+            strings: ["F.Abduvasiyev", "Twitter"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            backDelay: 200,
+            showCursor: true,
+            cursorChar: '<span class="cursor">|</span>',
+            autoInsertCss: true,
+            loop: true,
+            loopCount: Infinity,
+        });
+    </script>
+</body>
+
+</html>
+=======
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fede.me</title>
+    <link rel="stylesheet" href="assets/css/portfolio.css">
+    <link rel="stylesheet" href="assets/css/carousel.css">
+    <link rel="icon" href="assets/image/photo_2021-06-24_23-20-50.jpg">
+    <link rel="stylesheet" href="assets/js/vanilla.js">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+</head>
+
+<body>
+    <header class="navbar">
+        <nav id="navbar" style="position: fixed;">
+            <ul class="ul-1">
+                <h1 class="text-3">FAXRIDDIN</h1>
+                <li class="li-2"><a href="#home" style="text-decoration: none; color: black;">Home</a></li>
+                <li class="li-3"><a href="#about" style="text-decoration: none; color: black;">About</a></li>
+                <li class="li-3"><a href="#projects" style="text-decoration: none; color: black;">Projects</a></li>
+                <li class="li-3"><a href="#contact" style="text-decoration: none; color: black;">Contact</a></li>
+                <li class="li-3"><a href="#footer" style="text-decoration: none; color: black;">Footer</a></li>
+                <button class="btn-2"><a href="https://www.instagram.com/">Subscribe</a></button>
+                <i class='bx bx-menu' id="btn"></i>
+            </ul>
+        </nav>
+        <div class="container-1">
+            <img style="width: 100%; height: 700px; object-fit: cover; margin-top: -50px;"
+                src="../Portfolio/assets/image/pexels-andrea-piacquadio-845451.jpg" alt="" class="img-1">
+            <div class="yoz">
+                <div class="yozish">
+                    <h1>I'm Abduvasiyev Faxriddin</h1>
+                </div>
+            </div>
+            <div class="yoz-1">
+                <span class="element"></span>
+            </div>
+            <!-- <button class="btn-1">Visit us</button> -->
+        </div>
+    </header>
+    <section id="about" class="section-1">
+        <div class="container-2">
+            <h1 class="text-4">About me</h1>
+            <h1 class="text-5">_____</h1>
+        </div>
+        <div class="container-3">
+            <div class="container-5">
+                <span>
+                    <p class="text-6">Live: Jizzakh</p>
+                    <img src="assets/image/XXXL.webp" alt="" class="img-3">
+                </span>
+
+            </div>
+            <div class="container-5">
+                <span>
+                    <p class="text-6">Study: 17-school</p>
+                    <img src="assets/image/9BVkt015657591000804_b.jpg" alt="" class="img-3">
+                </span>
+            </div>
+            <div class="container-5">
+                <span>
+                    <p class="text-6">Student of IT Park</p>
+                    <img src="assets/image/Без названия.png" alt="" class="img-4">
+                </span>
+            </div>
+        </div>
+    </section>
+    <section id="projects" class="section-2">
+        <h1 class="text-7">Projects</h1>
+        <h1 class="text-5">_____</h1>
+        <div class="card">
+            <div class="top-menu">
+                <h3>Wednesday, August 2022</h3>
+                <div class="battery">
+                    <span>42%</span>
+                    <!-- <img class="low" src="low.png" alt=""> -->
+                </div>
+            </div>
+            <div class="clock">
+                <div class="wrap">
+                    <span class="hour"></span>
+                    <span class="minute"></span>
+                    <span class="second"></span>
+                    <span class="dot"></span>
+                </div>
+                <div class="timing">
+                    <span class="span-1">
+                        <span class="hours"></span>:<span class="mins"></span>
+                    </span>
+                    <p>Wednesday, August 2022</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="img-container" id="imgs">
+                <img src="assets/image/switzerland.jpg" alt="">
+                <img src="assets/image/photo_2021-12-24_22-07-11.jpg" alt="">
+                <img src="assets/image/images.jpg" alt="">
+                <img src="assets/image/-5808811021958229169_121.jpg" alt="">
+            </div>
+            <div class="buttons-container">
+                <button id="left">Prev</button>
+                <button id="right">Next</button>
+            </div>
+        </div>
+        <h1 class="h1">Simple calculator</h1>
+        <form class="calculator" name="calculator">
+            <table>
+                <tr>
+                    <td colspan="4">
+                        <input type="text" name="display" id="display" placeholder="0" disabled>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="button" name="seven" value="7" onclick="calculator.display.value += '7'"></td>
+                    <td><input type="button" name="eight" value="8" onclick="calculator.display.value += '8'"></td>
+                    <td><input type="button" name="nine" value="9" onclick="calculator.display.value += '9'"></td>
+                    <td><input type="button" name="times" class="operator" value="x"
+                            onclick="calculator.display.value += '*'"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" name="four" value="4" onclick="calculator.display.value += '4'"></td>
+                    <td><input type="button" name="five" value="5" onclick="calculator.display.value += '5'"></td>
+                    <td><input type="button" name="six" value="6" onclick="calculator.display.value += '6'"></td>
+                    <td><input type="button" name="minus" class="operator" value="-"
+                            onclick="calculator.display.value += '-'"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" name="one" value="1" onclick="calculator.display.value += '1'"></td>
+                    <td><input type="button" name="two" value="2" onclick="calculator.display.value += '2'"></td>
+                    <td><input type="button" name="three" value="3" onclick="calculator.display.value += '3'"></td>
+                    <td><input type="button" name="plus" class="operator" value="+"
+                            onclick="calculator.display.value += '+'"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" name="clear" value="c" onclick="calculator.display.value = ''"></td>
+                    <td><input type="button" name="zero" value="0" onclick="calculator.display.value += '0'"></td>
+                    <td><input type="button" name="doit" value="="
+                            onclick="calculator.display.value = eval(calculator.display.value)"></td>
+                    <td><input type="button" name="div" class="operator" value="/"
+                            onclick="calculator.display.value += '/'"></td>
+                </tr>
+            </table>
+        </form>
+        <h1 class="h1">Vanilla</h1>
+        <div data-tilt data-tilt-glare data-tilt-max-glare="0.8" data-tilt data-tilt-scale="1.1" class="your-element">
+        </div>
+
+        <script type="text/javascript" src="assets/js/vanilla.js"></script>
+        <script type="text/javascript">
+            VanillaTilt.init(document.querySelector(".your-element"), {
+                max: 25,
+                speed: 400
+            });
+
+            //It also supports NodeList
+            VanillaTilt.init(document.querySelectorAll(".your-element"));
+        </script>
+        </script>
+    </section>
+    <section id="contact" class="section-3">
+        <div class="section-3">
+            <h1 class="text-7">Contact</h1>
+            <h1 class="text-5">_____</h1>
+            <h1 class="po"><span class="fi">Contact</span> Us</h1>
+            <p class="shkaf">Please fill out the form below to contact us</p>
+            <label class="tel" for="">Name</label> <br>
+            <input type="text" name="" id="stol"><br>
+            <label class="tel" for="">Email</label> <br>
+            <input type="email" name="" id="stol"><br>
+            <label class="tel" for="">Message</label> <br>
+            <textarea name="" id="message" cols="10" rows="10"></textarea><br><br>
+            <input class="stul" type="submit" name="" id="" value="Submit">
+        </div>
+    </section>
+    <footer id="footer" class="footer">
+        <div class="container-7">
+            <div class="container-8">
+                <h1 class="text-8">Shop</h1>
+                <h1 class="text-9">_____</h1>
+                <p class="text-10">Shirt</p>
+                <p class="text-10">Shirt</p>
+                <p class="text-10">Shirt</p>
+                <p class="text-10">Shirt</p>
+            </div>
+            <div class="container-8">
+                <h1 class="text-8">Shop</h1>
+                <h1 class="text-9">_____</h1>
+                <p class="text-10">Shirt</p>
+                <p class="text-10">Shirt</p>
+                <p class="text-10">Shirt</p>
+                <p class="text-10">Shirt</p>
+            </div>
+            <div class="container-8">
+                <h1 class="text-8">Shop</h1>
+                <h1 class="text-9">_____</h1>
+                <p class="text-10">Shirt</p>
+                <p class="text-10">Shirt</p>
+                <p class="text-10">Shirt</p>
+                <p class="text-10">Shirt</p>
+            </div>
+            <div class="container-8">
+                <h1 class="text-8">Shop</h1>
+                <h1 class="text-9">_____</h1>
+                <p class="text-10">Shirt</p>
+                <p class="text-10">Shirt</p>
+                <p class="text-10">Shirt</p>
+                <p class="text-10">Shirt</p>
+            </div>
+            <div>
+                <div class="container-9">
+                    <i class='bx bxl-telegram logo' style="position: absolute; border-radius: 5px; color: blue; font-size: 35px; border: 1px solid white; background-color: white; margin-top: -5px; margin-left: 170px;"></i>
+                    <div class="container-10">
+                        <span class="element-2"></span>
+                    </div>
+                </div>
+                <div class="container-9">
+                    <i class='bx bxl-instagram logo' style="position: absolute; border-radius: 5px; color: red; font-size: 35px; border: 1px solid white; background-color: white; margin-top: -5px; margin-left: 170px;"></i>
+                    <div class="container-10-1">
+                        <span class="element-3"></span>
+                    </div>
+                </div>
+                <div class="container-9">
+                    <i class='bx bxl-twitter logo' style="position: absolute; border-radius: 5px; color: blue; font-size: 35px; border: 1px solid white; background-color: white; margin-top: -5px; margin-left: 170px;"></i>
+                    <div class="container-10">
+                        <span class="element-4"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr style="margin-top: 50px;">
+        <div>
+            <p class="text-11">Copyright © 2022 Fax Industries Company. All Rights Reserved. <br> Design: Fede.dev
+            </p>
+        </div>
+    </footer>
+    <script src="assets/js/portfolio.js"></script>
+    <script src="assets/js/portfolio-2.js"></script>
+    <script>
+        var typed = new Typed('.element', {
+            strings: ["I'm coder", "I'm student"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            backDelay: 2000,
+            showCursor: true,
+            cursorChar: '<span class="cursor">|</span>',
+            autoInsertCss: true,
+            loop: true,
+            loopCount: Infinity,
+        });
+    </script>
+    <script>
+        var typed = new Typed('.element-2', {
+            strings: ["@Fax2008", "Telegram"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            backDelay: 200,
+            showCursor: true,
+            cursorChar: '<span class="cursor">|</span>',
+            autoInsertCss: true,
+            loop: true,
+            loopCount: Infinity,
+        });
+    </script>
+    <script>
+        var typed = new Typed('.element-3', {
+            strings: ["faxriddin_2008", "Instagram"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            backDelay: 200,
+            showCursor: true,
+            cursorChar: '<span class="cursor">|</span>',
+            autoInsertCss: true,
+            loop: true,
+            loopCount: Infinity,
+        });
+    </script>
+    <script>
+        var typed = new Typed('.element-4', {
+            strings: ["F.Abduvasiyev", "Twitter"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            backDelay: 200,
+            showCursor: true,
+            cursorChar: '<span class="cursor">|</span>',
+            autoInsertCss: true,
+            loop: true,
+            loopCount: Infinity,
+        });
+    </script>
+</body>
+
+</html>
+>>>>>>> Stashed changes
